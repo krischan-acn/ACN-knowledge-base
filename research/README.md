@@ -4,4 +4,5 @@ Audits and research, one dated file per piece of work (`YYYY-MM-DD-short-topic.m
 
 | Date | Topic |
 | --- | --- |
+| 2026-10-22 | ["Next articles" endpoint for infinite scroll](2026-10-22-next-articles-endpoint.md) |
 | 2026-10-22 | [Homepage accessibility and structure](2026-10-22-homepage-accessibility-structure.md) |

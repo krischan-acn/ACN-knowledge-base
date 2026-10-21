@@ -28,6 +28,11 @@ gantt
 
 ### To do
 
+- [ ] Fix newsroom infinite scroll: move the next-article lookup server-side, stop the early URL switch, update the tab title ([research](../research/2026-10-22-next-articles-endpoint.md))
+- [ ] Send the "next articles" endpoint spec to the API team ([spec](../research/files/2026-10-22-next-articles-endpoint-spec.md))
+- [ ] Stop an API outage from caching a blank newsroom homepage ([systems/newsroom.md](../systems/newsroom.md#hosting-and-caching-2026-10-22))
+- [ ] Decide the newsroom's canonical host (`www` or `portal`) and set `NEXT_PUBLIC_SITE_URL` ([systems/newsroom.md](../systems/newsroom.md#known-open-items))
+- [ ] Confirm which branch Netlify deploys the newsroom from, and whether `staging` is live
 - [ ] Change the passwords pasted into chat on 2026-10-22, one per account, 2FA on ([map/accounts.md](../map/accounts.md))
 - [ ] Make this repo private again
 - [ ] Pick a password manager ([decision 0002](../decisions/0002-credentials.md))
@@ -39,6 +44,10 @@ gantt
 
 ### Done
 
+- [x] 2026-10-22 Newsroom: hosting reviewed; stays on Netlify, Cloudflare Workers setup parked ([decision 0009](../decisions/0009-stay-on-netlify.md))
+- [x] 2026-10-22 Newsroom slugs cleaned up: whole-word cuts, Hepburn kana, transliteration server-only ([decision 0007](../decisions/0007-transliterated-slugs.md))
+- [x] 2026-10-22 Newsroom article pages cached: repeat views 15–30ms, down from 2.5–8s ([decision 0008](../decisions/0008-no-canonical-redirect.md))
+- [x] 2026-10-22 Newsroom homepage made lighter: 45KB → 16KB over the network, 15 → 2 image preloads ([log](../logs/2026-10-22-newsroom-speed-and-slugs.md))
 - [x] 2026-10-22 Homepage accessibility and structure scan ([research](../research/2026-10-22-homepage-accessibility-structure.md))
 - [x] 2026-10-22 Knowledge base set up from the client template ([log](../logs/2026-10-22-knowledge-base-set-up.md))
 - [x] Sep 2026 Homepage slowness and app pool outages fixed ([systems/legacy-site.md](../systems/legacy-site.md#history))

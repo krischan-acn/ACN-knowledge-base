@@ -12,3 +12,6 @@ Why things are the way they are. Numbered, using [the template](../templates/dec
 | 0004 | [A systems/ folder for how each system works](0004-systems-folder.md) | accepted |
 | 0005 | [Changes to the legacy platform are additive only](0005-legacy-changes-are-additive.md) | accepted |
 | 0006 | [Press release body stored as ProseMirror JSON](0006-body-as-prosemirror-json.md) | accepted (early) |
+| 0007 | [Article URLs use transliterated Latin slugs, not native script](0007-transliterated-slugs.md) | accepted |
+| 0008 | [Article pages are cached and not redirected to the canonical URL](0008-no-canonical-redirect.md) | accepted |
+| 0009 | [Newsroom stays on Netlify; Cloudflare Workers parked](0009-stay-on-netlify.md) | accepted |
