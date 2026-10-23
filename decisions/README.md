@@ -15,3 +15,4 @@ Why things are the way they are. Numbered, using [the template](../templates/dec
 | 0007 | [Article URLs use transliterated Latin slugs, not native script](0007-transliterated-slugs.md) | accepted |
 | 0008 | [Article pages are cached and not redirected to the canonical URL](0008-no-canonical-redirect.md) | accepted |
 | 0009 | [Newsroom stays on Netlify; Cloudflare Workers parked](0009-stay-on-netlify.md) | accepted |
+| 0010 | [SvelteKit rewrite of the newsroom evaluated and parked](0010-sveltekit-rewrite-parked.md) | parked |

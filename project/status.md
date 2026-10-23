@@ -1,6 +1,6 @@
 # Status
 
-Last updated: 2026-10-22.
+Last updated: 2026-10-23.
 
 Newest items at the top of each list. Tick items off (`[x]`) and add the date; never delete them.
 
@@ -28,6 +28,9 @@ gantt
 
 ### To do
 
+- [ ] Decide the newsroom's stack going forward: stay on Next.js, or resume the parked SvelteKit rewrite ([decision 0010](../decisions/0010-sveltekit-rewrite-parked.md))
+- [ ] Live newsroom fixes from the 2026-10-23 review: Inter loaded twice, no security headers, unescaped JSON-LD, per-row logo fetches ([log](../logs/2026-10-23-newsroom-sveltekit-evaluation.md))
+- [ ] Rotate the credentials in the newsroom's `log.md` and purge it from git history; it is still tracked on `main` ([log](../logs/2026-10-23-newsroom-sveltekit-evaluation.md))
 - [ ] Fix newsroom infinite scroll: move the next-article lookup server-side, stop the early URL switch, update the tab title ([research](../research/2026-10-22-next-articles-endpoint.md))
 - [ ] Send the "next articles" endpoint spec to the API team ([spec](../research/files/2026-10-22-next-articles-endpoint-spec.md))
 - [ ] Stop an API outage from caching a blank newsroom homepage ([systems/newsroom.md](../systems/newsroom.md#hosting-and-caching-2026-10-22))
@@ -44,6 +47,8 @@ gantt
 
 ### Done
 
+- [x] 2026-10-23 Newsroom SvelteKit rewrite built, benchmarked against the live Next sites, and parked ([decision 0010](../decisions/0010-sveltekit-rewrite-parked.md))
+- [x] 2026-10-23 Newsroom redeployed from `main` on both hosts; the Netlify home page layout shift dropped from 0.886 to 0.001 ([log](../logs/2026-10-23-newsroom-sveltekit-evaluation.md))
 - [x] 2026-10-22 Newsroom: hosting reviewed; stays on Netlify, Cloudflare Workers setup parked ([decision 0009](../decisions/0009-stay-on-netlify.md))
 - [x] 2026-10-22 Newsroom slugs cleaned up: whole-word cuts, Hepburn kana, transliteration server-only ([decision 0007](../decisions/0007-transliterated-slugs.md))
 - [x] 2026-10-22 Newsroom article pages cached: repeat views 15–30ms, down from 2.5–8s ([decision 0008](../decisions/0008-no-canonical-redirect.md))

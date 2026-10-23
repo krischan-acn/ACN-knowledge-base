@@ -4,5 +4,6 @@ What already happened. Newest first. Use [the template](../templates/log.md), na
 
 | Date | Topic |
 | --- | --- |
+| 2026-10-23 | [Newsroom: codebase review and SvelteKit evaluation](2026-10-23-newsroom-sveltekit-evaluation.md) |
 | 2026-10-22 | [Newsroom speed, article caching and slugs](2026-10-22-newsroom-speed-and-slugs.md) |
 | 2026-10-22 | [Knowledge base set up](2026-10-22-knowledge-base-set-up.md) |
